@@ -1,0 +1,15 @@
+<h1>Login</h1>
+<% if ( expressFlash.length > 0 ) { %>
+  <p>Message: <%= expressFlash %> </p>
+<% } %>
+<form action="/users/login" method="POST">
+  <div>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <button type="submit">Login</button>
+</form>
