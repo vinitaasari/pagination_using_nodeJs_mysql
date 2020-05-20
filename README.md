@@ -3,5 +3,5 @@ Server Side Pagination with jwt authentication using NodeJs and Jquery
 
 To run project
 
-npm install
-npm start
+1.npm install
+2.npm start
